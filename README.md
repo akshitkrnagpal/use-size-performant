@@ -46,3 +46,6 @@ const YourComponent = () => {
 };
 ```
 
+## License
+
+MIT © [Akshit Kr Nagpal](https://github.com/akshitkrnagpal)
