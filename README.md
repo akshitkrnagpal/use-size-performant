@@ -1,6 +1,8 @@
 # use-size-performant
 
-React hook to retrieve the size of an element
+> React hook to retrieve the size of an element
+
+[![NPM](https://img.shields.io/npm/v/use-size-performant.svg)](https://www.npmjs.com/package/use-size-performant) 
 
 ## Installation
 
