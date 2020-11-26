@@ -38,7 +38,7 @@ const YourComponent = () => {
   const dom = document.querySelector('body');
   const { height, width } = useSize(ref);
   return (
-    <div ref={ref}>
+    <div>
       <p>Height: {height}</p>
       <p>Width: {width}</p>
     </div>
