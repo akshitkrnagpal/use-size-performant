@@ -1,0 +1,23 @@
+{
+  "name": "use-size-performant",
+  "version": "1.0.0",
+  "main": "dist/useSize.js",
+  "license": "MIT",
+  "author": "akshitkrnagpal",
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "repository": "https://github.com/akshitkrnagpal/use-size.git",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "exit 0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "react": "^17.0.1",
+    "typescript": "^4.1.2"
+  }
+}
