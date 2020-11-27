@@ -1,6 +1,6 @@
 {
   "name": "use-size-performant",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/useSize.js",
   "license": "MIT",
   "author": "akshitkrnagpal",
