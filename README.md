@@ -36,7 +36,7 @@ const YourComponent = () => {
 import useSize from "use-size-performant";
 const YourComponent = () => {
   const dom = document.querySelector('body');
-  const { height, width } = useSize(ref);
+  const { height, width } = useSize(dom);
   return (
     <div>
       <p>Height: {height}</p>
