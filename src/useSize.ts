@@ -1,6 +1,9 @@
-import { useState, useLayoutEffect } from 'react';
+import { useState, useLayoutEffect, useEffect } from 'react';
 import ResizeObserver from 'resize-observer-polyfill';
 import { getTargetElement, BasicTarget } from './utils';
+
+const useIsomorphicLayoutEffect =
+  typeof window !== 'undefined' ? useLayoutEffect : useEffect;
 
 type Size = { width?: number; height?: number };
 
@@ -13,7 +16,7 @@ function useSize(target: BasicTarget): Size {
     };
   });
 
-  useLayoutEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     const el = getTargetElement(target);
     if (!el) {
       return () => {};
